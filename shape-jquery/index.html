@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Shape Manager</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+    <div style="padding: 50px;">
+        <div id="box"></div><!--tmpt kluar output nnti-->
+    </div>
+    <div id="tmbol"><br><br>
+        <button id="addShape" class="btn btn-primary">Add Shape</button> <!--button utk add shape, buttonnya pke bootstrap. kalau di click bkl pndh ke script.js pke id-->
+        <button id="removeShape" class="btn btn-primary">Remove Shape</button><!--button utk remove shape, buttonnya pke bootstrap. kalau di click bkl pndh ke script.js pke id-->
+            <label for="shape">Shape Type:</label>
+            <select id="shape">
+                <option value="circle">Circle</option>
+                <option value="square">Square</option>
+            </select>
+            <label for="shapeColor">Color:</label>
+            <input type="color" id="shapeColor">
+    </div>
+</body>
+</html>

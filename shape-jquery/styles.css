@@ -1,0 +1,22 @@
+
+#box {
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+}
+
+.shape {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.circle {
+    border-radius: 80%;
+}
+
+#tmbol {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
